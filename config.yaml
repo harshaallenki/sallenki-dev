@@ -1,0 +1,63 @@
+baseURL: "https://sallenki.dev"
+languageCode: "en-us"
+title: "The Wanderer"
+theme: "hugo-profile"
+relativeURLs: true
+
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+
+  favicon: "/images/profile.jpg"
+  description: "A high performance hugo theme for personal portfolio and blog."
+
+  # home:
+  disable_home: false
+  profile_image: "/images/profile.jpg"
+  name: "Sriharsha Allenki"
+  namecolor: ffc107
+  profession: "Embedded Systems Developer"
+  github: "https://github.com/harshaallenki"
+  linkedin: "https://www.linkedin.com/in/sriharshaallenki/"
+  twitter: "https://twitter.com/harsha_allenki"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Thanks for landing here. I am an embedded systems developer working on peripherals like USB, PCIe in Qualcomm Mobile Silicon.
+                      Here I would like to put my thoughts, my learnings on things I find interesting like embedded systems, Rust, personal finance etc."
+  describe_l2_person: "Know me"
+
+  # Experience
+  disable_experience: true
+
+  # Education
+  disable_education: true
+
+  # Projects
+  disable_projects: true
+
+  # Achievements
+  disable_achievements: true
+
+  # Contact
+  disable_contact: true
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  email: "sallenki@pm.me"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: false
+
+  # Blog
+  showdescription: false
+  tweet: true
